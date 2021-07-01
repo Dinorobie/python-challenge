@@ -57,7 +57,7 @@ Both of these challenges encompass a real-world situation where your newfound Py
 * In addition, your final script should both print the analysis to the terminal and export a text file with the results.
 
 ## PyPoll
-![Uploading image.png…]()
+![image](https://user-images.githubusercontent.com/67658859/124062114-cc231c00-d9f5-11eb-9973-2f8488375a77.png)
 
 * In this challenge, you are tasked with helping a small, rural town modernize its vote counting process.
 
@@ -107,8 +107,3 @@ Both of these challenges encompass a real-world situation where your newfound Py
 
   * Ensure your repository has regular commits (i.e. 20+ commits) and a thorough README.md file
 
-
-
-## Copyright
-
-© 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
