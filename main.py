@@ -1,3 +1,5 @@
+# Import the os module
+# This will allow us to create file paths across operating systems
 import os
 import csv
 csvpath = os.path.join("..", "PYTHON-CHALLENGE", "budget_data.csv")
@@ -5,12 +7,13 @@ total_months=[]
 profits_losses=[]
 change_profits_lose=[]
 
+# Reading using CSV module
 with open(csvpath) as csvfile:
     csvreader = csv.reader(csvfile, delimiter=",")
     
- # Read the header row first (skip this step if there is now header)
+ #Read the header row first (skip this step if there is now header)
     csv_header = next(csvreader)
-# Read each row of data after the header
+#Read each row of data after the header
     for row in csvreader:
         total_months.append(row[0])
         profits_losses.append(float(row[1]))
